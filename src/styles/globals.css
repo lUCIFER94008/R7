@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
 @custom-variant dark (&:is(.dark *));
 
 :root {
@@ -126,6 +128,7 @@
 
   body {
     @apply bg-background text-foreground;
+    font-family: 'Gloria Hallelujah', cursive;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
