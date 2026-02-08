@@ -1,7 +1,6 @@
-import { ArrowDown, Github, GraduationCap } from "lucide-react";
+import { ArrowDown, Github, GraduationCap, Instagram, Linkedin } from "lucide-react";
 import { ProjectCard } from "./components/ProjectCard";
 import { SkillTag } from "./components/SkillTag";
-import { ContactForm } from "./components/ContactForm";
 import { ScrollIndicator } from "./components/ScrollIndicator";
 import { CheckeredBackground } from "./components/CheckeredBackground";
 import { ScrollReveal } from "./components/ScrollReveal";
@@ -91,12 +90,12 @@ export default function App() {
             >
               View Projects
             </button>
-            <button
-              onClick={scrollToContact}
-              className="bg-black text-white px-8 py-3 hover:bg-gray-800 transition-all duration-300 text-lg"
+            <a
+              href="mailto:mohammedrizwan9c@gmail.com"
+              className="bg-black text-white px-8 py-3 hover:bg-gray-800 transition-all duration-300 text-lg text-center"
             >
               Contact Me
-            </button>
+            </a>
           </div>
 
           <div className="pt-12 animate-bounce">
@@ -191,30 +190,50 @@ export default function App() {
 
       {/* Contact Section */}
       <section id="contact" className="py-20 px-6 relative">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-4xl mx-auto text-center">
           <ScrollReveal>
-            <h2 className="text-4xl font-bold mb-12 text-center">Get in Touch</h2>
+            <h2 className="text-4xl font-bold mb-8">Contact</h2>
           </ScrollReveal>
           <ScrollReveal delay={200}>
-            <ContactForm />
+            <a 
+              href="mailto:mohammedrizwan9c@gmail.com"
+              className="text-lg hover:underline transition-all duration-300"
+            >
+              mohammedrizwan9c@gmail.com
+            </a>
           </ScrollReveal>
         </div>
       </section>
 
       {/* Footer */}
       <footer className="py-8 px-6 border-t border-black/10 relative">
-        <div className="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-gray-600">
-            © 2026 Mohammed Rizwan. All rights reserved.
-          </p>
+        <div className="max-w-6xl mx-auto flex justify-center items-center gap-6">
           <a
             href="https://github.com/lUCIFER94008"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 text-sm hover:text-black transition-colors duration-300"
+            className="hover:scale-110 transition-transform duration-300"
+            aria-label="GitHub Profile"
           >
-            <Github className="size-5" />
-            <span>GitHub Profile</span>
+            <Github className="size-6" />
+          </a>
+          <a
+            href="https://www.instagram.com/_mohd_rizzwan_/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:scale-110 transition-transform duration-300"
+            aria-label="Instagram Profile"
+          >
+            <Instagram className="size-6" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/mohammed-rizwan-82b05a323"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:scale-110 transition-transform duration-300"
+            aria-label="LinkedIn Profile"
+          >
+            <Linkedin className="size-6" />
           </a>
         </div>
       </footer>
