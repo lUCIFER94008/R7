@@ -1,5 +1,5 @@
 
-  # Personal Portfolio Website
+  # R7 INFO
 
   This is a code bundle for Personal Portfolio Website. The original project is available at https://www.figma.com/design/V0E0bRqSPOQakfldehEKEZ/Personal-Portfolio-Website.
 
