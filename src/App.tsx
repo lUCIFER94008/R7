@@ -4,6 +4,7 @@ import { SkillTag } from "./components/SkillTag";
 import { ScrollIndicator } from "./components/ScrollIndicator";
 import { CheckeredBackground } from "./components/CheckeredBackground";
 import { ScrollReveal } from "./components/ScrollReveal";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function App() {
   const skills = [
@@ -237,6 +238,7 @@ export default function App() {
           </a>
         </div>
       </footer>
+      <Analytics />
     </div>
   );
 }
