@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import indicatorImage from "figma:asset/4189fb6d8c768d687d4de971a7265b0b8a27ab44.png";
+import indicatorImage from "../assets/favicon.png";
 
 export function ScrollIndicator() {
   const [scrollProgress, setScrollProgress] = useState(0);
@@ -9,11 +9,11 @@ export function ScrollIndicator() {
       const windowHeight = window.innerHeight;
       const documentHeight = document.documentElement.scrollHeight;
       const scrollTop = window.scrollY;
-      
+
       // Calculate scroll progress (0 to 100)
       const totalScrollableHeight = documentHeight - windowHeight;
       const progress = (scrollTop / totalScrollableHeight) * 100;
-      
+
       setScrollProgress(Math.min(progress, 100));
     };
 
@@ -27,16 +27,16 @@ export function ScrollIndicator() {
     <div className="fixed right-8 top-0 h-screen hidden md:flex items-start pt-20 pb-20 z-50 pointer-events-none">
       <div className="relative h-full">
         {/* Moving indicator image */}
-        <div 
+        <div
           className="absolute left-1/2 -translate-x-1/2 transition-all duration-300 ease-out"
-          style={{ 
+          style={{
             top: `${scrollProgress}%`,
             transform: `translate(-50%, -50%)`
           }}
         >
-          <img 
-            src={indicatorImage} 
-            alt="Scroll indicator" 
+          <img
+            src={indicatorImage}
+            alt="Scroll indicator"
             className="h-24 w-auto opacity-80"
           />
         </div>

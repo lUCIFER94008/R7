@@ -4,19 +4,8 @@ import { SkillTag } from "./components/SkillTag";
 import { ScrollIndicator } from "./components/ScrollIndicator";
 import { CheckeredBackground } from "./components/CheckeredBackground";
 import { ScrollReveal } from "./components/ScrollReveal";
-import { useEffect } from "react";
-import faviconImg from "figma:asset/6bda3be859218d6f7490c7264fa3220632fd98ce.png";
 
 export default function App() {
-  // Set favicon
-  useEffect(() => {
-    const link: HTMLLinkElement = document.querySelector("link[rel*='icon']") || document.createElement('link');
-    link.type = 'image/png';
-    link.rel = 'icon';
-    link.href = faviconImg;
-    document.head.appendChild(link);
-  }, []);
-
   const skills = [
     "HTML",
     "CSS",
@@ -72,10 +61,10 @@ export default function App() {
     <div className="min-h-screen relative">
       {/* Checkered Background with Mouse Effect */}
       <CheckeredBackground />
-      
+
       {/* Scroll Indicator */}
       <ScrollIndicator />
-      
+
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col justify-center items-center px-6 py-20 relative">
         <div className="max-w-4xl mx-auto text-center space-y-8">
@@ -87,7 +76,7 @@ export default function App() {
               Software Developer & System Administrator
             </p>
           </div>
-          
+
           <div className="py-8">
             <p className="text-2xl sm:text-3xl italic border-l-4 border-black pl-6 text-left inline-block">
               "Like to discover more varieties of things."
@@ -206,7 +195,7 @@ export default function App() {
             <h2 className="text-4xl font-bold mb-8">Contact</h2>
           </ScrollReveal>
           <ScrollReveal delay={200}>
-            <a 
+            <a
               href="mailto:mohammedrizwan9c@gmail.com"
               className="text-lg hover:underline transition-all duration-300"
             >
