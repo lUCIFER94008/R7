@@ -34,6 +34,12 @@ export default function App() {
 
   const completedProjects = [
     {
+      title: "VINTAGE.VAULT",
+      description: "A modern full-stack thrift fashion e-commerce website built with Next.js, MongoDB, and Cloudinary, featuring admin product management and WhatsApp-based ordering.",
+      liveLink: "https://vintage-vault-in.vercel.app/",
+      githubLink: ""
+    },
+    {
       title: "IoT-Based Fishermen Safety Software",
       description: "A real-time IoT-based safety and rescue dashboard for fishermen.",
       liveLink: "https://iotkeralafisherman-8bfu.vercel.app/",
