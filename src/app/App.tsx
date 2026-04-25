@@ -41,8 +41,7 @@ export default function App() {
     {
       title: "IoT-Based Fishermen Safety Software",
       description: "A real-time IoT-based safety and rescue dashboard for fishermen.",
-      liveLink: "https://iotkeralafisherman-8bfu.vercel.app/",
-      githubLink: "https://github.com/lUCIFER94008/Iotfishermensafetydashboard.git"
+      liveLink: "https://iotkeralafisherman-8bfu.vercel.app/"
     },
     {
       title: "New Bismi Gift House – E-commerce Website",
@@ -52,14 +51,12 @@ export default function App() {
     {
       title: "Complaint Management System",
       description: "A modern full-stack web application for managing complaints, built using Next.js, MongoDB, and Tailwind CSS. It features user authentication, complaint tracking, and an admin dashboard for efficient issue resolution.",
-      liveLink: "https://complaint-system-alpha.vercel.app/",
-      githubLink: "https://github.com/lUCIFER94008/complaint-system"
+      liveLink: "https://complaint-system-alpha.vercel.app/"
     },
     {
       title: "Train Ticket Booking Website",
       description: "A static front-end train ticket booking website built using HTML and CSS, showcasing train search, schedule viewing, and ticket booking UI.",
-      liveLink: "https://train-ticket-ebon.vercel.app/",
-      githubLink: "https://github.com/lUCIFER94008/Train-ticket.git"
+      liveLink: "https://train-ticket-ebon.vercel.app/"
     }
   ];
 
