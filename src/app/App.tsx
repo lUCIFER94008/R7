@@ -36,8 +36,7 @@ export default function App() {
     {
       title: "VINTAGE.VAULT",
       description: "A modern full-stack thrift fashion e-commerce website built with Next.js, MongoDB, and Cloudinary, featuring admin product management and WhatsApp-based ordering.",
-      liveLink: "https://vintage-vault-in.vercel.app/",
-      githubLink: ""
+      liveLink: "https://vintage-vault-in.vercel.app/"
     },
     {
       title: "IoT-Based Fishermen Safety Software",
@@ -48,8 +47,7 @@ export default function App() {
     {
       title: "New Bismi Gift House – E-commerce Website",
       description: "An online shopping platform for a local gift store.",
-      liveLink: "https://bismi-iota.vercel.app/",
-      githubLink: "https://github.com/lUCIFER94008/Newbismigift.git"
+      liveLink: "https://bismi-iota.vercel.app/"
     },
     {
       title: "Complaint Management System",
