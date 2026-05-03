@@ -34,6 +34,11 @@ export default function App() {
 
   const completedProjects = [
     {
+      title: "Pixelrift",
+      description: "Pixelrift is a premium web platform to browse and book ready-made web development projects with integrated pricing plans, MongoDB storage, and email notifications.",
+      liveLink: "https://pixelrift-online.vercel.app/"
+    },
+    {
       title: "VINTAGE.VAULT",
       description: "A modern full-stack thrift fashion e-commerce website built with Next.js, MongoDB, and Cloudinary, featuring admin product management and WhatsApp-based ordering.",
       liveLink: "https://vintage-vault-in.vercel.app/"
