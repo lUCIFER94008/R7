@@ -57,11 +57,6 @@ export default function App() {
       title: "Train Ticket Booking Website",
       description: "A static front-end train ticket booking website built using HTML and CSS, showcasing train search, schedule viewing, and ticket booking UI.",
       liveLink: "https://train-ticket-ebon.vercel.app/"
-    },
-    {
-      title: "Pixelrift",
-      description: "Pixelrift is a premium web platform to browse and book ready-made web development projects with integrated pricing plans, MongoDB storage, and email notifications.",
-      liveLink: "https://pixelrift-online.vercel.app/"
     }
   ];
 
