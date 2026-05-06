@@ -36,7 +36,7 @@ export default function App() {
     {
       title: "Pixelrift",
       description: "Pixelrift is a premium web platform to browse and book ready-made web development projects with integrated pricing plans, MongoDB storage, and email notifications.",
-      liveLink: "https://pixelrift-online.vercel.app/"
+      liveLink: "https://www.pixelriftonline.online"
     },
     {
       title: "VINTAGE.VAULT",
